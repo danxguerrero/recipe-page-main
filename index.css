@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%)
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+p{
+    font-size: 16px;
+}
+
+hr {
+    color: hsl(30, 18%, 87%);
+}
+
+#recipe-img {
+    height: 250px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+#preparation-container {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.step-name {
+   font-weight: bold; 
+}
+
+#content-container {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px 25px;
+    margin: 50px;
+}
